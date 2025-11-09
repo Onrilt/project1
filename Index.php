@@ -1,12 +1,8 @@
-<?php
-class Knight{
-public $sword;
+<a href="http://localhost/admin.php"> Комната администрации</a>
+---------------------------
+<a href="http://localhost/news.php"> Посмотреть новости</a>
 
-function myMessage() {
-  echo "Извинись перед рыцарем!!!";
-  }
-}
-$dangenmaster = new Knight();
-echo $dangenmaster -> myMessage()
-
-?>  
+<?php 
+// include 'connection.php';
+echo("лол");
+?>
