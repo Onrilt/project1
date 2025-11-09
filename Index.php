@@ -1,10 +1,12 @@
 <?php
-function sum($x, $y) {
-  $z = $x + $y;
-  return "привет" ;
-}
+class Knight{
+public $sword;
 
-echo "5 + 10 = " . sum(5, 10) . "<br>";
-echo "7 + 13 = " . sum(7, 13) . "<br>";
-echo "2 + 4 = " . sum(2, 4);
-?>
+function myMessage() {
+  echo "Извинись перед рыцарем!!!";
+  }
+}
+$dangenmaster = new Knight();
+echo $dangenmaster -> myMessage()
+
+?>  
