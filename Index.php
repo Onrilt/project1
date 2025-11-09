@@ -4,5 +4,5 @@
 
 <?php 
 // include 'connection.php';
-echo("лол");
+echo("лолf");
 ?>
