@@ -1,5 +1,6 @@
 
 <?php
+
 include 'connection.php';
 
 
@@ -28,3 +29,7 @@ echo ('</p>');
 
    
    ?>
+   <?php 
+// include 'connection.php';
+include "proverkagit.php"
+?>

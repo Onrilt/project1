@@ -4,5 +4,5 @@
 
 <?php 
 // include 'connection.php';
-echo("лолf");
+include "proverkagit.php"
 ?>
