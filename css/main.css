@@ -1,0 +1,13 @@
+.carousel-container {
+    height: calc(100vh - 56px); /* Высота окна минус высота навигации */
+}
+
+.carousel-item {
+    height: calc(100vh - 56px);
+}
+
+.carousel-item img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
