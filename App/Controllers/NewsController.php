@@ -9,7 +9,7 @@ class NewsController
         require 'views/news/index.php';
     }
 
-    public function show()
+    public function show($id)
     {
         require 'views/news/show.php';
     }
